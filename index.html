@@ -86,6 +86,7 @@
   <body>
     <header class="top-header">
       <h1 class="name">Nina Carducci</h1>
+
       <nav class="nav">
         <ul>
           <li><a href="#about">À propos</a></li>
@@ -192,7 +193,15 @@
     </div>
     <section id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.png" alt="Picture of Nina" />
+        <img
+          src="./assets/images/nina-large.png"
+          srcset="
+            ./assets/images/nina-small.jpg  250w,
+            ./assets/images/nina-medium.jpg 560w
+          "
+          sizes="50vw"
+          alt="Picture of Nina"
+        />
       </div>
       <div id="about-me">
         <h2 class="about-me__title">A propos de moi</h2>
@@ -253,25 +262,45 @@
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"
+            src="./assets/images/gallery/mariage/hannah-busing-large.jpg"
+            srcset="
+              ./assets/images/mariage/hannah-busing-small.jpg   375w,
+              ./assets/images/mariage/hannah-busing-medium.jpg 1920w
+            "
+            sizes="50vw"
             alt="Picture of hands"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"
+            src="./assets/images/gallery/portraits/ade-tunji-large.jpg"
+            srcset="
+              ./assets/images/portraits/ade-tunji-small.jpg   375w,
+              ./assets/images/portraits/ade-tunji-medium.jpg 1920w
+            "
+            sizes="50vw"
             alt="Picture of a man with his eyes closed"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"
+            src="./assets/images/gallery/mariage/jakob-owens-large.jpg"
+            srcset="
+              ./assets/images/mariage/jakob-owens-small.jpg   375w,
+              ./assets/images/mariage/jakob-owens-medium.jpg 1920w
+            "
+            sizes="50vw"
             alt="Picture of a couple during their wedding"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"
+            src="./assets/images/gallery/portraits/nino-van-prattenburg-large.jpg"
+            srcset="
+              ./assets/images/portraits/nino-van-prattenburg-small.jpg   375w,
+              ./assets/images/portraits/nino-van-prattenburg-medium.jpg 1920w
+            "
+            sizes="50vw"
             alt="Picture of a woman with glases"
           />
           <img
@@ -392,7 +421,15 @@
           </form>
         </div>
         <div class="picture right">
-          <img src="./assets/images/camera.png" alt="Picture of a camera" />
+          <img
+            src="./assets/images/camera-large.png"
+            srcset="
+              ./assets/images/camera-small.jpg  418w,
+              ./assets/images/camera-medium.jpg 230w
+            "
+            sizes="50vw"
+            alt="Picture of a camera"
+          />
         </div>
       </div>
     </div>
